@@ -1,5 +1,6 @@
 function makeTextBigger() {
    document.getElementById("text").style.fontSize = "24pt";
+   alert("Hello, world!");
 }
 
 function makeFancyShmancy() {
@@ -8,10 +9,12 @@ function makeFancyShmancy() {
       text.style.fontWeight = "bold";
       text.style.color = "blue";
       text.style.textDecoration = "underline";
+      alert("FancyShmancy!");
    } else {
       text.style.fontWeight = "normal";
       text.style.color = "black";
       text.style.textDecoration = "none";
+      alert("BoringBetty!")
    }
 }
 
