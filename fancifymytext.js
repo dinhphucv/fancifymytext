@@ -14,7 +14,7 @@ function makeFancyShmancy() {
       text.style.fontWeight = "normal";
       text.style.color = "black";
       text.style.textDecoration = "none";
-      alert("BoringBetty!")
+      alert("BoringBetty!");
    }
 }
 
